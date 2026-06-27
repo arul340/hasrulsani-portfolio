@@ -15,11 +15,12 @@ export const ContactSection = () => {
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 justify-center items-center">
             <div>
               <h2 className="font-serif text-2xl md:text-3xl">
-                Let&apos;s turn your data into meaningful impact
+                Let&apos;s Build Something Impactful Together
               </h2>
               <p className="text-sm md:text-base mt-2 ">
-                Whether you need dashboards, analytics, or forecasting models,
-                I&apos;m here to help you unlock value from your data.
+                Whether you need a web application, software solution, or
+                data-driven insights, I&apos;m here to help bring your ideas to
+                life.
               </p>
             </div>
             <div>

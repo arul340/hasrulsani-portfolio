@@ -116,12 +116,12 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Intelligent Data-Driven Solutions
+            Crafting Software with a Data-Driven Mindset
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I help businesses turn raw data into meaningful insights, predictive
-            models, and smarter decisions. Let&apos;s collaborate on your next
-            data project.
+            I build scalable web applications and leverage data science
+            fundamentals to turn complex problems into clean, impactful
+            solutions. Let&apos;s build something great together.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

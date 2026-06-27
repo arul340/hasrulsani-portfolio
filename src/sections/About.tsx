@@ -23,6 +23,7 @@ import Tailwind from "@/assets/icons/tailwindcss.svg";
 import Docker from "@/assets/icons/docker.svg";
 import MySQL from "@/assets/icons/mysql.svg";
 import ApacheSpark from "@/assets/icons/apachespark.svg";
+import Matplotlib from "@/assets/icons/Matplotlib.svg";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
@@ -48,25 +49,29 @@ const toolboxItems = [
     iconType: NumPy,
   },
   {
-    title: "TensorFlow",
-    iconType: TensorFlowIcon,
+    title: "Matplotlib",
+    iconType: Matplotlib,
   },
-  {
-    title: "Docker",
-    iconType: Docker,
-  },
-  {
-    title: "PyTorch",
-    iconType: PyTorchIcon,
-  },
-  {
-    title: "Scikit-learn",
-    iconType: ScikitLearnIcon,
-  },
-  {
-    title: "Apache Spark",
-    iconType: ApacheSpark,
-  },
+  // {
+  //   title: "TensorFlow",
+  //   iconType: TensorFlowIcon,
+  // },
+  // {
+  //   title: "Docker",
+  //   iconType: Docker,
+  // },
+  // {
+  //   title: "PyTorch",
+  //   iconType: PyTorchIcon,
+  // },
+  // {
+  //   title: "Scikit-learn",
+  //   iconType: ScikitLearnIcon,
+  // },
+  // {
+  //   title: "Apache Spark",
+  //   iconType: ApacheSpark,
+  // },
   {
     title: "React",
     iconType: ReactIcon,

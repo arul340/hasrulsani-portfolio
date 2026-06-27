@@ -4,6 +4,7 @@ import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Project1 from "@/assets/images/Project-1.png";
 import Project2 from "@/assets/images/Project-2.png";
 import Project3 from "@/assets/images/Project-3.png";
+import Project4 from "@/assets/images/Project-4.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -12,8 +13,20 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
+    company: "HRIS Learning Nexus",
+    year: "2026",
+    title: "HRIS Employee Portal & Management System",
+    results: [
+      { title: "Streamlined employee self-service access" },
+      { title: "Centralized HR data & attendance management" },
+      { title: "Reduced manual HR processes by 40%" },
+    ],
+    link: "https://learningnexus.co.id/portal/login",
+    image: Project4,
+  },
+  {
     company: "Learning Nexus",
-    year: "2024",
+    year: "2025",
     title: "Modern English Course Landing Page",
     results: [
       {
